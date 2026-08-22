@@ -2,8 +2,8 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { BookOpen, Search, Download, FileText, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { supabase } from '../lib/supabase';
-import { mockBooks } from '../data';
+import { supabase } from './supabase';
+import { mockBooks } from './data';
 
 interface Book {
   id: string;

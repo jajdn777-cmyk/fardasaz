@@ -10,15 +10,15 @@ export const supabase = supabaseUrl && supabaseAnonKey
         select: async () => {
           console.warn(`Supabase credentials missing. Returning mock data for table: ${table}`);
           if (table === 'books') {
-            const { mockBooks } = await import('../data');
+            const { mockBooks } = await import('./data');
             return { data: mockBooks, error: null };
           }
           if (table === 'scholarships') {
-            const { mockScholarships } = await import('../data');
+            const { mockScholarships } = await import('./data');
             return { data: mockScholarships, error: null };
           }
           if (table === 'volunteer_sessions') {
-            const { mockVolunteers } = await import('../data');
+            const { mockVolunteers } = await import('./data');
             return { data: mockVolunteers, error: null };
           }
           return { data: [], error: null };

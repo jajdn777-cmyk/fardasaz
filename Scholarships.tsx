@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Scholarship } from '../types';
+import { Scholarship } from './types';
 import { ShieldCheck, Globe, X, GraduationCap, MapPin, CheckCircle2, User } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { supabase } from '../lib/supabase';import { mockScholarships } from '../data';
+import { supabase } from './supabase';import { mockScholarships } from './data';
 
 export default function Scholarships() {
   const { t } = useTranslation();

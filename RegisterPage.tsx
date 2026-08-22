@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'motion/react';
 import { User, Mail, BookOpen, Send, Loader2, CheckCircle2 } from 'lucide-react';
-import { supabase } from '../lib/supabase';
+import { supabase } from './supabase';
 
 export default function RegisterPage() {
   const { t } = useTranslation();
