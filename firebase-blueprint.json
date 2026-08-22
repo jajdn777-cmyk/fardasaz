@@ -1,0 +1,52 @@
+{
+  "collections": [
+    {
+      "collection_name": "books",
+      "documents": [
+        {
+          "id": "sample_book",
+          "fields": {
+            "title": "تعلیمات اسلامی",
+            "grade": "صنف ۱۲",
+            "subject": "اسلامیات",
+            "category": "لیسه"
+          }
+        }
+      ]
+    },
+    {
+      "collection_name": "scholarships",
+      "documents": [
+        {
+          "id": "sample_scholarship",
+          "fields": {
+            "name": "بورسیه دولتی",
+            "description": "توضیحات...",
+            "levels": ["لیسانس", "ماستری"],
+            "gender": "همه",
+            "coverage": "تکمیلی",
+            "format": "حضوری",
+            "targetAudience": "فارغان مکتب",
+            "link": "https://example.com",
+            "deadline": "2024-12-30"
+          }
+        }
+      ]
+    },
+    {
+      "collection_name": "volunteer_sessions",
+      "documents": [
+        {
+          "id": "sample_session",
+          "fields": {
+            "instructorName": "احمد رضایی",
+            "subject": "ریاضی",
+            "grade": "صنف ۱۲",
+            "time": "پنجشنبه‌ها، ساعت ۴ عصر",
+            "platform": "Google Meet"
+          }
+        }
+      ]
+    }
+  ]
+}

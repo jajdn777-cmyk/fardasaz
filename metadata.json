@@ -1,0 +1,6 @@
+{
+  "name": "Rah-e-Danesh",
+  "description": "A modern, lightweight, single-page dynamic landing website for Afghan students, offering free educational resources, textbooks, and verified scholarships.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
