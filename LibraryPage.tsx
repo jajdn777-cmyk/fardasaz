@@ -1,5 +1,5 @@
 import React from 'react';
-import BooksHub from '../components/BooksHub';
+import BooksHub from './BooksHub';
 
 export default function LibraryPage() {
   return (

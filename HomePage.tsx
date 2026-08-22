@@ -3,10 +3,10 @@ import { useLocation, Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'motion/react';
 import { HeartHandshake } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import Hero from '../components/Hero';
-import Mission from '../components/Mission';
-import Testimonials from '../components/Testimonials';
-import VolunteerModal from '../components/VolunteerModal';
+import Hero from './Hero';
+import Mission from './Mission';
+import Testimonials from './Testimonials';
+import VolunteerModal from './VolunteerModal';
 
 export default function HomePage() {
   const location = useLocation();

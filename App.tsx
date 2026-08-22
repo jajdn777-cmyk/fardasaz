@@ -1,15 +1,15 @@
 import React, { Suspense, lazy } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Layout from './components/Layout';
+import Layout from './Layout';
 import { useTranslation } from 'react-i18next';
 import { Loader2 } from 'lucide-react';
 
-const HomePage = lazy(() => import('./pages/HomePage'));
-const LibraryPage = lazy(() => import('./pages/LibraryPage'));
-const ScholarshipsPage = lazy(() => import('./pages/ScholarshipsPage'));
-const VolunteerPage = lazy(() => import('./pages/VolunteerPage'));
-const KankorPage = lazy(() => import('./pages/KankorPage'));
-const RegisterPage = lazy(() => import('./pages/RegisterPage'));
+const HomePage = lazy(() => import('./HomePage'));
+const LibraryPage = lazy(() => import('./LibraryPage'));
+const ScholarshipsPage = lazy(() => import('./ScholarshipsPage'));
+const VolunteerPage = lazy(() => import('./VolunteerPage'));
+const KankorPage = lazy(() => import('./KankorPage'));
+const RegisterPage = lazy(() => import('./RegisterPage'));
 
 const PageLoader = () => (
   <div className="flex h-[calc(100vh-80px)] items-center justify-center">

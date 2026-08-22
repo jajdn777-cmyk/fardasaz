@@ -1,5 +1,5 @@
 import React from 'react';
-import Scholarships from '../components/Scholarships';
+import Scholarships from './Scholarships';
 
 export default function ScholarshipsPage() {
   return (

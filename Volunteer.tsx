@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { VolunteerSession } from '../types';
+import { VolunteerSession } from './types';
 import { Users, MonitorPlay, Clock, Send, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { supabase } from '../lib/supabase';import { mockVolunteers } from '../data';
+import { supabase } from './supabase';import { mockVolunteers } from './data';
 import VolunteerModal from './VolunteerModal';
 
 export default function Volunteer() {

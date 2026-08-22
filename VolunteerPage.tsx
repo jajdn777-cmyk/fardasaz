@@ -1,5 +1,5 @@
 import React from 'react';
-import Volunteer from '../components/Volunteer';
+import Volunteer from './Volunteer';
 
 export default function VolunteerPage() {
   return (
